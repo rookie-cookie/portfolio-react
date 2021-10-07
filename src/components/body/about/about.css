@@ -20,6 +20,13 @@
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1024px) {
+  .picture {
+    height: 350px;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   .about-top {
     flex-direction: column;
